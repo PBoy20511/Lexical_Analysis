@@ -1,13 +1,20 @@
 # Lexical_Analysis
 這次的程式實現了Lexical Analyzer的功能，能夠將原始的程式碼轉換成Token。
 
-# 開發環境與平台：
+開發環境與平台：
+
 Window10, Dev C++
-# 程式語言：
+
+程式語言：
+
 C++
-# 選擇的組語：S
-IC
-# 程式設計：
+
+選擇的組語：
+
+SIC
+
+程式設計：
+
 (a)	說明：
 
 這次的程式實現了Lexical Analyzer的功能，能夠將原始的程式碼轉換成Token。
@@ -21,5 +28,5 @@ IC
 
 class Table：還有分成Default Table以及Hash Table，Default Table就是用來裝最一開始讀入的Table1~4，hash Table就是用來裝symbol，literal，以及string。class Token Coordinate：用來存放那個token的座標，裡面會有table Index以及index。class Analyzer：用來讀取input、並且分析token的。裡頭會有用來存table的兩個vector名為table和d table，用來存input content的vector名為input，以及用來存token座標的vector名為coordinates。
 # 使用方式：
-    請先將Input和Table1~4都放置跟檔案一樣的位置，然後輸入你要的模式(一般使用者使用Regular即可，Debug Mode是我寫給開發者用的)。樹入完之後，程式會要求你輸入你的table檔名，輸入完成再輸入input檔名，程式就會把結果全都印在SIC_output之中。
+請先將Input和Table1~4都放置跟檔案一樣的位置，然後輸入你要的模式(一般使用者使用Regular即可，Debug Mode是我寫給開發者用的)。樹入完之後，程式會要求你輸入你的table檔名，輸入完成再輸入input檔名，程式就會把結果全都印在SIC_output之中。
 
